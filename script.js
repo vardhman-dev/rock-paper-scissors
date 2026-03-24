@@ -11,8 +11,9 @@ function getComputerChoice(){
         return "Scissors";
     }
 }
+
 function getHumanChoice(){
-    let choice = +prompt("Enter a number : 0 or 1 or 2");
+    let choice = +prompt("Enter a number : 0 for 'Rock', 1 for 'Papper', 2 for 'Scissors'");
     
     if(choice === 0){
         return "Rock";
@@ -24,3 +25,7 @@ function getHumanChoice(){
         return "Scissors";
     }
 }
+
+let humanScore = 0;
+let computerScore = 0;
+
