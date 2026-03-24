@@ -11,3 +11,16 @@ function getComputerChoice(){
         return "Scissors";
     }
 }
+function getHumanChoice(){
+    let choice = +prompt("Enter a number : 0 or 1 or 2");
+    
+    if(choice === 0){
+        return "Rock";
+    }
+    else if(choice === 1){
+        return "Papper";
+    }
+    else{
+        return "Scissors";
+    }
+}
