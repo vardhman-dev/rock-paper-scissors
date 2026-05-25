@@ -76,7 +76,7 @@ function createDisplay(){
     div1.style.width = "auto";
     div1.style.background = "red";
     div1.style.margin = "auto";
-    div1.style.marginTop = "50px";
+    div1.style.marginTop = "100px";
     div1.classList.add("display");
     const body1 = document.querySelector("body");
     body1.appendChild(div1);
